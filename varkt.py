@@ -66,7 +66,7 @@ def acceleration(v, v0):
 
 
 # Задаём переменые, необходимые для хранения данных:
-h = np.linspace(0, 70000, num=280)
+h = np.linspace(0, 60000, num=280)
 a_array = []
 altitude_array = []
 speed_array = []
@@ -86,12 +86,15 @@ while i < 140:
     # print(ksp_mass())
     altitude_array.append(altitude())
     a_array.append(f(h[k]))
+    speed_mm_array.append(speed_mm(a_array[-1], speed_mm_array[-1]))
     speed_array.append(srf_speed())
     time.sleep(0.5)
     i += 0.5
     k += 1
 
+
 # Удалим первый элемент массива скорости, добавленый изначально для рассчёта:
+
 del speed_mm_array[0]
 
 # Просчитаем ускорение по данным из KSP:
@@ -101,28 +104,17 @@ for j in range(1, len(speed_array)):
 
 # Построим график зависимости ускорения от высоты по данным из KSP:
 plt.plot(altitude_array, ac_array, color="purple")
+plt.plot(h, a_array, color="red")
 plt.xlabel('altitude, м')
 plt.ylabel('a, m/s^2')
 plt.grid(color='black')
 plt.show()
 
-# Построим график зависимости ускорения от высоты по данным, полученным из математической и физической модели:
-plt.plot(h, a_array, color="red")
-plt.xlabel('altitude, м')
-plt.ylabel('a, м/s^2')
-plt.grid(color='black')
-plt.show()
-
 # Построим график зависимости скорости от высоты по данным из KSP:
 plt.plot(altitude_array, speed_array, color="purple")
-plt.xlabel('altitude, м')
-plt.ylabel('v, m/s')
-plt.grid(color='black')
-plt.show()
-
-# Построим график зависимости скорости от высоты по данным, полученным из математической и физической модели:
 plt.plot(h, speed_mm_array, color="red")
 plt.xlabel('altitude, м')
 plt.ylabel('v, m/s')
 plt.grid(color='black')
 plt.show()
+
