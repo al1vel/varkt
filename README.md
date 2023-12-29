@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://i.yapx.ru/W7K9W.jpg" alt="Project Logo" width="1000">
+      <img src="https://i.postimg.cc/9f9DSKWK/logo.jpg" width="1000">
 </p>
 
 ## About
