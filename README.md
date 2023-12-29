@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="file:///E:/varkt/logo.jpg" alt="Project Logo" width="726">
+      <img src="https://disk.yandex.ru/i/4kLVGbYug0YAOg" alt="Project Logo" width="1000">
 </p>
 
 ## About
