@@ -15,3 +15,6 @@
 - Миронов Данил
 - Заворотный Адексей
 - Гусев Савелий
+
+## Ссылка на отчёт по проекту
+      https://drive.google.com/drive/folders/1BDRXZ5zhQ6ijHIdZYscK9fupYUDH2W4x?usp=drive_link
