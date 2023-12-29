@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://drive.google.com/file/d/1f2-EZTHlABmm3YMIn8AZsfComXOEPLYf/view?usp=drive_link" alt="Project Logo" width="726">
+      <img src="file:///E:/varkt/logo.jpg" alt="Project Logo" width="726">
 </p>
 
 ## About
