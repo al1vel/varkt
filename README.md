@@ -18,3 +18,7 @@
 
 ## Ссылка на отчёт по проекту
       https://drive.google.com/drive/folders/1BDRXZ5zhQ6ijHIdZYscK9fupYUDH2W4x?usp=drive_link
+## Ссылка на видеоотчёт
+      https://www.youtube.com/watch?v=RzWlXzPiuVo
+## Ссылка на запись полёта
+      https://youtu.be/cl22qyUe920
